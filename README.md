@@ -241,7 +241,7 @@ The dataset was uploaded into PostgreSQL with the following schema:
   2. **Mid-Value Customers**: Moderate spending, but consistent.
   3. **Low-Value Customers**: Infrequent purchases and low spending.
 
-  **Result:**
+  ### 6.1. **Result**
 
   |     | Cluster    | Average Total Spent | Total Spent | Average Quantity | Average Frequency |
   |-------|-------|---------|---------|---------|---------|
@@ -249,8 +249,77 @@ The dataset was uploaded into PostgreSQL with the following schema:
   | 1 | 1      |     760.690500 | 127796.0040     |     8.642900     |    502.238095 |
   | 2 | 2      |     408.007649 | 123626.3175     |     6.561127     |    503.877888 |
 
+  We have got three clusters (0, 1, and 2) with the following characteristics:
+
+  6.1.1. **Cluster 0:**
+    - **Average Total Spent:** \$135.24
+    - **Total Spent:** \$71,544.43
+    - **Average Quantity:** 3.90 units
+    - **Average Frequency:** 505.42 purchases
+
+  6.1.2. **Cluster 1:**
+    - **Average Total Spent:** \$760.69
+    - **Total Spent:** \$127,796.00
+    - **Average Quantity:** 8.64 units
+    - **Average Frequency:** 502.24 purchases
+
+  6.1.3. **Cluster 2:**
+    - **Average Total Spent:** \$408.01
+    - **Total Spent:** \$123,626.32
+    - **Average Quantity:** 6.56 units
+    - **Average Frequency:** 503.88 purchases
+
+  ### 6.2. **Interpretation**
+
+  6.2.1. **High-Value Customers (Cluster 1):**
+    - **Average Total Spent:** \$760.69
+    - **Average Quantity:** 8.64 units
+    - **Total Spent:** \$127,796.00
+    - **Average Frequency:** 502.24 purchases
+
+    **Characteristics:**
+      - These customers spend significantly more per transaction compared to the other clusters.
+      - They make a considerable number of purchases and buy more items per transaction.
+      - This cluster represents your high-value customers who contribute substantially to total revenue.
+
+  6.2.2. **Mid-Value Customers (Cluster 2):**
+    - **Average Total Spent:** \$408.01
+    - **Average Quantity:** 6.56 units
+    - **Total Spent:** \$123,626.32
+    - **Average Frequency:** 503.88 purchases
+
+    **Characteristics:**
+      - These customers spend moderately per transaction and buy a reasonable number of items.
+      - They have a total spend and average quantity between the high-value and low-value clusters.
+      - They are consistent but not as high-spending as Cluster 1.
+
+  6.2.3. **Low-Value Customers (Cluster 0):**
+    - **Average Total Spent:** \$135.24
+    - **Average Quantity:** 3.90 units
+    - **Total Spent:** \$71,544.43
+    - **Average Frequency:** 505.42 purchases
+
+    **Characteristics:**
+      - These customers spend the least per transaction and buy fewer items.
+      - They still contribute to a significant portion of total transactions but with lower spend per purchase.
+      - They are infrequent or low-spending customers, contributing the least to total revenue.
+
+  ### 6.3. **Summary**
+
+  - **Cluster 1** represents high-value customers who are frequent and spend significantly more per transaction.
+  - **Cluster 2** represents mid-value customers who spend and purchase moderately.
+  - **Cluster 0** represents low-value customers who spend the least per transaction and purchase fewer items.
+
+  ### 6.4. **Actions and Strategy**
+
+  - **High-Value Customers:** Focus on retaining and rewarding these customers with loyalty programs, exclusive offers, and personalized marketing.
+  - **Mid-Value Customers:** Encourage increased spending through targeted promotions and upselling.
+  - **Low-Value Customers:** Improve engagement through incentives, discounts, or improved customer service to increase their spending.
 
 
+
+
+----
 
 ### **Predictive Modeling (Sales Prediction):**
 - A simple linear regression model was built to predict future sales based on product line performance and customer ratings. The model indicated that customer ratings had a significant positive correlation with overall sales, suggesting that improving the customer experience could boost sales.
