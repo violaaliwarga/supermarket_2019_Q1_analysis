@@ -177,6 +177,18 @@ The dataset was uploaded into PostgreSQL with the following schema:
   - Saturday: \$56,121
   - Sunday: \$44,458
 
+- **Total Sales by Time Period**:
+  ```sql
+  SELECT time_period, SUM(total) AS total_sales
+  FROM supermarket
+  GROUP BY time_period
+  ORDER BY time_period;
+  ```
+  **Result:**
+  - Morning: \$61,799
+  - Afternoon: \$172,469
+  - Evening: \$88,699
+
 - **Customer Rating by Payment Method**:
   ```sql
   SELECT payment, AVG(rating) AS avg_rating
@@ -203,7 +215,7 @@ The dataset was uploaded into PostgreSQL with the following schema:
 - **Branch C** had the highest total sales at **\$110,568**, followed by **Branch A** with **\$106,200**. Lastly, **Branch B** with **\$106,197** in total sales.
 
 **Sales Trends:**
-- **Daily Sales**: Peak sales were observed on **Saturday** and **Tuesday** across all branches.
+- **Daily Sales**: Peak sales were observed on **Saturday** and **Tuesday** across all branches. Also sales are higher in the **Afternoon** and least in the **Morning**
 - **Product Line Trends**: **Fashion Accessories** consistently outperformed other product lines, while **Health and Beauty** had the lowest sales.
   
 **Visualizations:**
