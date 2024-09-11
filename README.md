@@ -92,33 +92,8 @@ The Python codes for this section can be found [here](https://github.com/violaal
 ## **4. Data Storage and Management (PostgreSQL)**
 
 **Database Design:**
-- The dataset was uploaded into PostgreSQL with the following schema:
-  `invoice_id`, `branch`, `city`, `customer_type`, `gender`, `product_line`, `unit_price`, `quantity`, `tax`, `total`, `date`, `time`, `payment`, `cogs`, `gross_margin_percentage`, `gross_income`, `rating`, `total_price`, `day`, `time_period`.
 
-To convert your data into PostgreSQL-compatible data types, you can use the following mapping based on the provided values:
-
-- **invoice_id**: `VARCHAR` (to accommodate alphanumeric IDs)
-- **branch**: `CHAR(1)` (since it’s a single letter)
-- **city**: `VARCHAR` (for city names)
-- **customer**: `VARCHAR` (for the customer type, e.g., "Normal")
-- **gender**: `VARCHAR` (for gender)
-- **product_line**: `VARCHAR` (for the product category)
-- **unit_price**: `NUMERIC` (for monetary values)
-- **quantity**: `INTEGER` (for numeric values)
-- **tax**: `NUMERIC` (for monetary values)
-- **total**: `NUMERIC` (for monetary values)
-- **date**: `DATE` (for date values)
-- **time**: `TIME` (for time values)
-- **payment**: `VARCHAR` (for payment method, e.g., "Ewallet")
-- **cogs**: `NUMERIC` (for monetary values)
-- **gross_margin**: `NUMERIC` (for monetary values)
-- **gross_income**: `NUMERIC` (for monetary values)
-- **rating**: `NUMERIC` (for ratings, with precision for decimals)
-- **total_price**: `NUMERIC` (for monetary values)
-- **day**: `VARCHAR` (for day names, e.g., "Monday")
-- **time_period**: `VARCHAR` (for time periods, e.g., "Afternoon")
-
-Here’s a summary of the PostgreSQL data types for your columns:
+The dataset was uploaded into PostgreSQL with the following schema:
 
 | **Column Name**     | **PostgreSQL Data Type** |
 |---------------------|---------------------------|
@@ -143,7 +118,6 @@ Here’s a summary of the PostgreSQL data types for your columns:
 | **day**             | `VARCHAR`                 |
 | **time_period**     | `VARCHAR`                 |
 
-You may adjust the precision and scale of `NUMERIC` types according to your data needs. For monetary values, a common practice is to use `NUMERIC(10,2)` to accommodate large values with two decimal places.
 
 **SQL Queries:**
 - **Total Sales by Branch**:
