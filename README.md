@@ -246,19 +246,19 @@ Customers were segmented into three clusters:
   
   We have got three clusters (0, 1, and 2) with the following characteristics:
 
-  <ins>Cluster 0</ins>
+  **<ins>Cluster 0</ins>**
   - **Average Total Spent:** \$135.24
   - **Total Spent:** \$71,544.43
   - **Average Quantity:** 3.90 units
   - **Average Frequency:** 505.42 purchases
 
-  <u>**Cluster 1:**</u>
+  **<ins>Cluster 1</ins>**
   - **Average Total Spent:** \$760.69
   - **Total Spent:** \$127,796.00
   - **Average Quantity:** 8.64 units
   - **Average Frequency:** 502.24 purchases
 
-  <u>**Cluster 2:**</u>
+  **<ins>Cluster 2</ins>**
   - **Average Total Spent:** \$408.01
   - **Total Spent:** \$123,626.32
   - **Average Quantity:** 6.56 units
