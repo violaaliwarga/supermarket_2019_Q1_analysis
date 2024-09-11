@@ -241,17 +241,13 @@ The dataset was uploaded into PostgreSQL with the following schema:
   2. **Mid-Value Customers**: Moderate spending, but consistent.
   3. **Low-Value Customers**: Infrequent purchases and low spending.
 
-  Result:
-     Cluster  Average Total Spent  Total Spent  Average Quantity  Average Frequency
-0        0           135.244664   71544.4275          3.900830         505.419660
-1        1           760.690500  127796.0040          8.642900         502.238095
-2        2           408.007649  123626.3175          6.561127         503.877888 
+  **Result:**
 
-|     | Cluster    | Average Total Spent | Total Spent | Average Quantity | Average Frequency |
-|-------|-------|---------|---------|---------|---------|
-|  | 0      |     135.244664 |  71544.4275     |     3.900830     |    505.419660 |
-|  | 1      |     760.690500 | 127796.0040     |     8.642900     |    502.238095 |
-|  | 2      |     408.007649 | 123626.3175     |     6.561127     |    503.877888 |
+  |     | Cluster    | Average Total Spent | Total Spent | Average Quantity | Average Frequency |
+  |-------|-------|---------|---------|---------|---------|
+  | 0 | 0      |     135.244664 |  71544.4275     |     3.900830     |    505.419660 |
+  | 1 | 1      |     760.690500 | 127796.0040     |     8.642900     |    502.238095 |
+  | 2 | 2      |     408.007649 | 123626.3175     |     6.561127     |    503.877888 |
 
 
 
