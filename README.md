@@ -246,7 +246,7 @@ Customers were segmented into three clusters:
   
   We have got three clusters (0, 1, and 2) with the following characteristics:
 
-  <u>**Cluster 0:**</u>
+  <ins>Cluster 0</ins>
   - **Average Total Spent:** \$135.24
   - **Total Spent:** \$71,544.43
   - **Average Quantity:** 3.90 units
