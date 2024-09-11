@@ -195,16 +195,16 @@ The dataset was uploaded into PostgreSQL with the following schema:
 ## **5. Exploratory Data Analysis**
 
 **Descriptive Statistics:**
-- **Average Gross Income**: \$15.38 per invoice
-- **Average Customer Rating**: 7/10
-- **Most Popular Product Line**: Fashion Accessories (20% of total sales)
+- **Average Gross Income**: **\$15.38** per invoice
+- **Average Customer Rating**: **7/10**
+- **Most Popular Product Line**: **Fashion Accessories** (**20%** of total sales)
 
 **Branch Performance:**
-- Branch C had the highest total sales at \$110,568, followed by Branch A with \$106,200. Branch B lagged with only \$106,197 in total sales.
+- **Branch C** had the highest total sales at **\$110,568**, followed by **Branch A** with **\$106,200**. Lastly, **Branch B** with **\$106,197** in total sales.
 
 **Sales Trends:**
-- **Daily Sales**: Peak sales were observed on Saturday and Tuesday across all branches.
-- **Product Line Trends**: Fashion Accessories consistently outperformed other product lines, while Health and Beauty had the lowest sales.
+- **Daily Sales**: Peak sales were observed on **Saturday** and **Tuesday** across all branches.
+- **Product Line Trends**: **Fashion Accessories** consistently outperformed other product lines, while **Health and Beauty** had the lowest sales.
   
 **Visualizations:**
 - **Sales by Branch (Bar Chart)**:
