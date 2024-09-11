@@ -39,7 +39,12 @@ The objective of this project is to analyze historical sales data from a superma
 
 The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
-## **2. Data Cleaning and Preparation**
+## **2. Initial Analysis of the Raw Dataset**
+
+In this phase, I performed an initial review of the raw dataset using Excel to verify the accuracy of key calculations. Specifically, I checked columns such as `Tax`, `Total`, `Gross Margin`, and `Gross Income` to ensure they were computed correctly. With these calculations confirmed as accurate, we can confidently move on to the next step of data analysis in Python.
+
+
+## **3. Data Cleaning and Preparation**
 
 **Exploring Missing Data:**
 - Columns `Customer` (7.9%), `Product Line` (4.3%), `Unit Price` (0.7%), and `Quantity` (2%) had missing values.
@@ -87,11 +92,61 @@ The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
 
 The Python codes for this section can be found [here](https://github.com/violaaliwarga/supermarket_sales/blob/main/Python%20Code%20-%20Data%20Cleaning%20and%20Preparation.ipynb)
 
-## **3. Data Storage and Management (PostgreSQL)**
+## **4. Data Storage and Management (PostgreSQL)**
 
 **Database Design:**
 - The dataset was uploaded into PostgreSQL with the following schema:
   `invoice_id`, `branch`, `city`, `customer_type`, `gender`, `product_line`, `unit_price`, `quantity`, `tax`, `total`, `date`, `time`, `payment`, `cogs`, `gross_margin_percentage`, `gross_income`, `rating`, `total_price`, `day`, `time_period`.
+
+To convert your data into PostgreSQL-compatible data types, you can use the following mapping based on the provided values:
+
+- **invoice_id**: `VARCHAR` (to accommodate alphanumeric IDs)
+- **branch**: `CHAR(1)` (since it’s a single letter)
+- **city**: `VARCHAR` (for city names)
+- **customer**: `VARCHAR` (for the customer type, e.g., "Normal")
+- **gender**: `VARCHAR` (for gender)
+- **product_line**: `VARCHAR` (for the product category)
+- **unit_price**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **quantity**: `INTEGER` (for numeric values, can also be `INTEGER` if no decimal values are needed)
+- **tax**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **total**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **date**: `DATE` (for date values)
+- **time**: `TIME` (for time values)
+- **payment**: `VARCHAR` (for payment method, e.g., "Ewallet")
+- **cogs**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **gross_margin**: `NUMERIC` (for percentages, with appropriate precision and scale)
+- **gross_income**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **rating**: `NUMERIC` (for ratings, with precision for decimals)
+- **total_price**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **day**: `VARCHAR` (for day names)
+- **time_period**: `VARCHAR` (for time periods, e.g., "Afternoon")
+
+Here’s a summary of the PostgreSQL data types for your columns:
+
+| **Column Name**     | **PostgreSQL Data Type** |
+|---------------------|---------------------------|
+| **invoice_id**      | `VARCHAR`                 |
+| **branch**          | `CHAR(1)`                 |
+| **city**            | `VARCHAR`                 |
+| **customer**        | `VARCHAR`                 |
+| **gender**          | `VARCHAR`                 |
+| **product_line**    | `VARCHAR`                 |
+| **unit_price**      | `NUMERIC`                 |
+| **quantity**        | `INTEGER`                 |
+| **tax**             | `NUMERIC`                 |
+| **total**           | `NUMERIC`                 |
+| **date**            | `DATE`                    |
+| **time**            | `TIME`                    |
+| **payment**         | `VARCHAR`                 |
+| **cogs**            | `NUMERIC`                 |
+| **gross_margin**    | `NUMERIC`                 |
+| **gross_income**    | `NUMERIC`                 |
+| **rating**          | `NUMERIC`                 |
+| **total_price**     | `NUMERIC`                 |
+| **day**             | `VARCHAR`                 |
+| **time_period**     | `VARCHAR`                 |
+
+You may adjust the precision and scale of `NUMERIC` types according to your data needs. For monetary values, a common practice is to use `NUMERIC(10,2)` to accommodate large values with two decimal places.
 
 **SQL Queries:**
 - **Total Sales by Branch**:
@@ -118,7 +173,7 @@ The Python codes for this section can be found [here](https://github.com/violaal
 
 ---
 
-## **4. Exploratory Data Analysis (Python)**
+## **5. Exploratory Data Analysis (Python)**
 
 **Descriptive Statistics:**
 - **Average Gross Income**: \$0 per invoice
@@ -141,7 +196,7 @@ The Python codes for this section can be found [here](https://github.com/violaal
 
 ---
 
-## **5. Advanced Analysis (Optional)**
+## **6. Advanced Analysis (Optional)**
 
 ### **Customer Segmentation (K-Means Clustering):**
 - Customers were segmented into three clusters:
@@ -154,7 +209,7 @@ The Python codes for this section can be found [here](https://github.com/violaal
 
 ---
 
-## **6. Results and Business Insights**
+## **7. Results and Business Insights**
 
 ### **Branch Performance:**
 - **Branch A** consistently outperformed the other branches, possibly due to its larger customer base or better location. Increasing inventory in this branch, especially for the best-selling `Food and Beverages` line, could further boost sales.
@@ -169,13 +224,13 @@ The Python codes for this section can be found [here](https://github.com/violaal
 
 ---
 
-## **7. Conclusion**
+## **8. Conclusion**
 
 This project provided key insights into branch performance, customer behavior, and product line sales for a supermarket chain. Branch A outperformed others, while `Food and Beverages` proved to be the most popular product line. Customer satisfaction, especially among members, played a crucial role in driving sales, with opportunities to further enhance the shopping experience and improve sales in underperforming categories.
 
 ---
 
-## **8. Next Steps**
+## **9. Next Steps**
 
 - Perform **seasonal analysis** over a longer period to see if trends hold year-round.
 - Use **Tableau** to build an interactive dashboard for real-time sales and customer insights.
