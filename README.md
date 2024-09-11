@@ -104,7 +104,7 @@ The dataset was uploaded into PostgreSQL with the following schema:
 | **gender**          | `VARCHAR`                 |
 | **product_line**    | `VARCHAR`                 |
 | **unit_price**      | `NUMERIC`                 |
-| **quantity**        | `INTEGER`                 |
+| **quantity**        | `NUMERIC`                 |
 | **tax**             | `NUMERIC`                 |
 | **total**           | `NUMERIC`                 |
 | **date**            | `DATE`                    |
@@ -120,6 +120,37 @@ The dataset was uploaded into PostgreSQL with the following schema:
 
 
 **SQL Queries:**
+- **Average Gross Income**:
+  ```sql
+  SELECT AVG(gross_income) AS avg_gross_income
+  FROM supermarket;
+  ```
+  **Result:**
+  15.3793690000000000
+
+- **Average Customer Rating**
+  ```sql
+  SELECT AVG(rating) AS average_customer_rating
+  FROM supermarket;
+  ```
+  **Result:**
+  6.9727000000000000
+
+- **Total Sales by Product Line & Percentage from Total Sales**:
+  ```sql
+  SELECT product_line, SUM(total) AS total_sales
+  FROM supermarket
+  GROUP BY product_line
+  ORDER BY total_sales DESC;;
+  ```
+  **Result:**
+  - Fashion Accessories: \$64,571, 20%
+  - Sports and Travel: \$53,970, 17%
+  - Food and Beverages: \$52,923, 16%
+  - Electronic Accessories: \$52,038, 16%
+  - Home and Lifestyle: \$51,793, 16%
+  - Health and Beauty: \$47,671, 15%
+
 - **Total Sales by Branch**:
   ```sql
   SELECT branch, SUM(total) AS total_sales
@@ -127,9 +158,24 @@ The dataset was uploaded into PostgreSQL with the following schema:
   GROUP BY branch;
   ```
   **Result:**
-  - Branch A: \$0
-  - Branch B: \$0
-  - Branch C: \$0
+  - Branch A: \$106,200
+  - Branch B: \$106,197
+  - Branch C: \$110,568
+
+- **Total Sales by Day**:
+  ```sql
+  SELECT day, SUM(total) AS total_sales
+  FROM supermarket
+  GROUP BY day;
+  ```
+  **Result:**
+  - Monday: \$37,899
+  - Tuesday: \$51,482
+  - Wednesday: \$43,731
+  - Thursday: \$45,349
+  - Friday: \$43,926
+  - Saturday: \$56,121
+  - Sunday: \$44,458
 
 - **Customer Rating by Payment Method**:
   ```sql
@@ -138,25 +184,27 @@ The dataset was uploaded into PostgreSQL with the following schema:
   GROUP BY payment;
   ```
   **Result:**
-  - Cash: 0/10
-  - Credit Card: 0/10
-  - E-wallet: 0/10
+  - Cash: 6.97/10
+  - Credit Card: 7/10
+  - E-wallet: 6.95/10
+ 
+
 
 ---
 
-## **5. Exploratory Data Analysis (Python)**
+## **5. Exploratory Data Analysis**
 
 **Descriptive Statistics:**
-- **Average Gross Income**: \$0 per invoice
-- **Average Customer Rating**: 0/10
-- **Most Popular Product Line**: Food and Beverages (0% of total sales)
+- **Average Gross Income**: \$15.38 per invoice
+- **Average Customer Rating**: 7/10
+- **Most Popular Product Line**: Fashion Accessories (20% of total sales)
 
 **Branch Performance:**
-- Branch A had the highest total sales at \$0, followed by Branch C with \$0. Branch B lagged with only \$0 in total sales.
+- Branch C had the highest total sales at \$110,568, followed by Branch A with \$106,200. Branch B lagged with only \$106,197 in total sales.
 
 **Sales Trends:**
-- **Daily Sales**: Peak sales were observed on ___ and ___ across all branches.
-- **Product Line Trends**: ___ consistently outperformed other product lines, while ___ had the lowest sales.
+- **Daily Sales**: Peak sales were observed on Saturday and Tuesday across all branches.
+- **Product Line Trends**: Fashion Accessories consistently outperformed other product lines, while Health and Beauty had the lowest sales.
   
 **Visualizations:**
 - **Sales by Branch (Bar Chart)**:
