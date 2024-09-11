@@ -50,8 +50,8 @@ The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/
 
 **Data Transformation:**
 - Created new columns: 
-  - `Total Price (Excluding Tax)`
-  - `Day of the Week`
+  - `Total Price (Excluding Tax from Total)`
+  - `Day` (Monday, Tuesday, etc)
   - `Time Period` (Morning, Afternoon, Evening)
   
 The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
