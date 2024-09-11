@@ -16,7 +16,7 @@ The objective of this project is to analyze historical sales data from a superma
 - **Total Rows**: 1,003
 - **Attributes**:
 
-| **Attribute**          | **Description**|
+| **Column Name**          | **Description**|
 |------------------------|----------------------------------------------------------------------------------|
 | **Invoice ID**          | A unique identifier for each sales transaction, generated automatically by the system.|
 | **Branch**              | The store branch where the purchase was made, identified by letters A, B, and C.|
