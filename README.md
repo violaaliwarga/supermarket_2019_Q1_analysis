@@ -36,6 +36,7 @@ The objective of this project is to analyze historical sales data from a superma
 | **Gross Income**        | The actual profit earned from the sale after deducting the cost of goods sold.|
 | **Rating**     | A rating provided by the customer based on their shopping experience, ranging from 1 (very dissatisfied) to 10 (very satisfied).|
 
+The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
 ## **2. Data Cleaning and Preparation**
 
