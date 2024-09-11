@@ -235,14 +235,14 @@ The dataset was uploaded into PostgreSQL with the following schema:
 
 ## **6. Advanced Analysis (Optional)**
 
-### **Customer Segmentation (K-Means Clustering):**
+### **6.1. Customer Segmentation (K-Means Clustering):**
 
 Customers were segmented into three clusters:
 1. **High-Value Customers**: Frequent purchases, high total spending.
 2. **Mid-Value Customers**: Moderate spending, but consistent.
 3. **Low-Value Customers**: Infrequent purchases and low spending.
 
-### **6.1. Result**
+### **Result**
   
   We have got three clusters (0, 1, and 2) with the following characteristics:
 
