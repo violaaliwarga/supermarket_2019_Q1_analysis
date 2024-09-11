@@ -236,12 +236,13 @@ The dataset was uploaded into PostgreSQL with the following schema:
 ## **6. Advanced Analysis (Optional)**
 
 ### **Customer Segmentation (K-Means Clustering):**
-- Customers were segmented into three clusters:
-  1. **High-Value Customers**: Frequent purchases, high total spending.
-  2. **Mid-Value Customers**: Moderate spending, but consistent.
-  3. **Low-Value Customers**: Infrequent purchases and low spending.
 
-  ### 6.1. **Result**
+Customers were segmented into three clusters:
+1. **High-Value Customers**: Frequent purchases, high total spending.
+2. **Mid-Value Customers**: Moderate spending, but consistent.
+3. **Low-Value Customers**: Infrequent purchases and low spending.
+
+  ### **6.1. Result**
 
   |     | Cluster    | Average Total Spent | Total Spent | Average Quantity | Average Frequency |
   |-------|-------|---------|---------|---------|---------|
@@ -251,23 +252,23 @@ The dataset was uploaded into PostgreSQL with the following schema:
 
   We have got three clusters (0, 1, and 2) with the following characteristics:
 
-  6.1.1. **Cluster 0:**
-          - **Average Total Spent:** \$135.24
-          - **Total Spent:** \$71,544.43
-          - **Average Quantity:** 3.90 units
-          - **Average Frequency:** 505.42 purchases
+  **6.1.1. Cluster 0:**
+  - **Average Total Spent:** \$135.24
+  - **Total Spent:** \$71,544.43
+  - **Average Quantity:** 3.90 units
+  - **Average Frequency:** 505.42 purchases
 
-  6.1.2. **Cluster 1:**
-          - **Average Total Spent:** \$760.69
-          - **Total Spent:** \$127,796.00
-          - **Average Quantity:** 8.64 units
-          - **Average Frequency:** 502.24 purchases
+  **6.1.2. Cluster 1:**
+  - **Average Total Spent:** \$760.69
+  - **Total Spent:** \$127,796.00
+  - **Average Quantity:** 8.64 units
+  - **Average Frequency:** 502.24 purchases
 
-  6.1.3. **Cluster 2:**
-          - **Average Total Spent:** \$408.01
-          - **Total Spent:** \$123,626.32
-          - **Average Quantity:** 6.56 units
-          - **Average Frequency:** 503.88 purchases
+  **6.1.3. Cluster 2:**
+  - **Average Total Spent:** \$408.01
+  - **Total Spent:** \$123,626.32
+  - **Average Quantity:** 6.56 units
+  - **Average Frequency:** 503.88 purchases
 
   ### 6.2. **Interpretation**
 
