@@ -220,7 +220,7 @@ The dataset was uploaded into PostgreSQL with the following schema:
   
 **Visualizations:**
 ![Total Sales by Branch](https://github.com/user-attachments/assets/e849be8f-7208-4056-b8e7-f343ea2a483a)
-<img src="https://github.com/user-attachments/assets/e849be8f-7208-4056-b8e7-f343ea2a483a" width="100">
+<img src="https://github.com/user-attachments/assets/e849be8f-7208-4056-b8e7-f343ea2a483a" width="500">
 ![Sales Trends by Day of the Week](https://github.com/user-attachments/assets/646cf280-ab2b-4236-9bc2-5021900bc497)
 ![Total Sales by Time Period](https://github.com/user-attachments/assets/da61e30c-54c1-43a6-822c-14a4eb7ed138)
 ![Percentage of Total Sales by Product Line](https://github.com/user-attachments/assets/6b4ad774-b48d-47aa-8e2c-b09b02d33b67)
