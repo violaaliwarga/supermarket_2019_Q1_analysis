@@ -4,7 +4,7 @@
 ## **1. Project Overview**
 
 **Objective:**
-The objective of this project is to analyze historical sales data from a supermarket chain with three branches over a period of three months (January 2019 to March 2019). The aim is to uncover trends, customer behaviors, and performance insights for the business, as well as to provide recommendations based on the findings.
+The objective of this project is to analyze historical [sales data](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales) from a supermarket chain with three branches over a period of three months (January 2019 to March 2019). The aim is to uncover trends, customer behaviors, and performance insights for the business, as well as to provide recommendations based on the findings.
 
 **Tools Used:**
 - **Excel** (for initial analysis of the dataset)
@@ -37,7 +37,6 @@ The objective of this project is to analyze historical sales data from a superma
 | **Gross Income**        | The actual profit earned from the sale after deducting the cost of goods sold.|
 | **Rating**     | A rating provided by the customer based on their shopping experience, ranging from 1 (very dissatisfied) to 10 (very satisfied).|
 
-The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
 ## **2. Initial Analysis of the Raw Dataset**
 
