@@ -8,7 +8,7 @@
 The objective of this project is to analyze historical sales data from a supermarket chain with three branches over a period of three months (January 2019 to March 2019). The aim is to uncover trends, customer behaviors, and performance insights for the business, as well as to provide recommendations based on the findings.
 
 **Tools Used:**
-- **Excel** (for preprocessing)
+- **Excel** (for initial analysis of the dataset)
 - **Python** (for data cleaning, analysis, and visualization)
 - **SQL** (for data storage and querying)
 
