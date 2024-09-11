@@ -103,19 +103,19 @@ To convert your data into PostgreSQL-compatible data types, you can use the foll
 - **customer**: `VARCHAR` (for the customer type, e.g., "Normal")
 - **gender**: `VARCHAR` (for gender)
 - **product_line**: `VARCHAR` (for the product category)
-- **unit_price**: `NUMERIC` (for monetary values, with appropriate precision and scale)
-- **quantity**: `INTEGER` (for numeric values, can also be `INTEGER` if no decimal values are needed)
-- **tax**: `NUMERIC` (for monetary values, with appropriate precision and scale)
-- **total**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **unit_price**: `NUMERIC` (for monetary values)
+- **quantity**: `INTEGER` (for numeric values)
+- **tax**: `NUMERIC` (for monetary values)
+- **total**: `NUMERIC` (for monetary values)
 - **date**: `DATE` (for date values)
 - **time**: `TIME` (for time values)
 - **payment**: `VARCHAR` (for payment method, e.g., "Ewallet")
-- **cogs**: `NUMERIC` (for monetary values, with appropriate precision and scale)
-- **gross_margin**: `NUMERIC` (for percentages, with appropriate precision and scale)
-- **gross_income**: `NUMERIC` (for monetary values, with appropriate precision and scale)
+- **cogs**: `NUMERIC` (for monetary values)
+- **gross_margin**: `NUMERIC` (for monetary values)
+- **gross_income**: `NUMERIC` (for monetary values)
 - **rating**: `NUMERIC` (for ratings, with precision for decimals)
-- **total_price**: `NUMERIC` (for monetary values, with appropriate precision and scale)
-- **day**: `VARCHAR` (for day names)
+- **total_price**: `NUMERIC` (for monetary values)
+- **day**: `VARCHAR` (for day names, e.g., "Monday")
 - **time_period**: `VARCHAR` (for time periods, e.g., "Afternoon")
 
 Here’s a summary of the PostgreSQL data types for your columns:
@@ -149,7 +149,7 @@ You may adjust the precision and scale of `NUMERIC` types according to your data
 - **Total Sales by Branch**:
   ```sql
   SELECT branch, SUM(total) AS total_sales
-  FROM sales_data
+  FROM supermarket
   GROUP BY branch;
   ```
   **Result:**
@@ -160,7 +160,7 @@ You may adjust the precision and scale of `NUMERIC` types according to your data
 - **Customer Rating by Payment Method**:
   ```sql
   SELECT payment, AVG(rating) AS avg_rating
-  FROM sales_data
+  FROM supermarket
   GROUP BY payment;
   ```
   **Result:**
