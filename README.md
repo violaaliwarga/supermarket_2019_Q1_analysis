@@ -41,7 +41,7 @@ The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/
 
 ## **2. Initial Analysis of the Raw Dataset**
 
-In this phase, I performed an initial review of the raw dataset using Excel to verify the accuracy of key calculations. Specifically, I checked columns such as `Tax`, `Total`, `Gross Margin`, and `Gross Income` to ensure they were computed correctly. With these calculations confirmed as accurate, we can confidently move on to the next step of data analysis in Python. Additionally, I standardized column names by converting them to lowercase and replacing spaces with underscores to simplify SQL queries in future analyses.
+I performed an initial review of the raw dataset using Excel to verify the accuracy of key calculations. Specifically, I checked columns such as `Tax`, `Total`, `Gross Margin`, and `Gross Income` to ensure they were computed correctly. With these calculations confirmed as accurate, we can confidently move on to the next step of data analysis in Python. Additionally, I standardized column names by converting them to lowercase and replacing spaces with underscores to simplify SQL queries in future analyses.
 
 
 ## **3. Data Cleaning and Preparation**
