@@ -91,7 +91,7 @@ The Python codes for this section can be found [here](https://github.com/violaal
 
 **Database Design:**
 - The dataset was uploaded into PostgreSQL with the following schema:
-  `invoice_id`, `branch`, `city`, `customer_type`, `gender`, `product_line`, `unit_price`, `quantity`, `tax`, `total`, `date`, `time`, `payment`, `cogs`, `gross_margin_percentage`, `gross_income`, `rating`.
+  `invoice_id`, `branch`, `city`, `customer_type`, `gender`, `product_line`, `unit_price`, `quantity`, `tax`, `total`, `date`, `time`, `payment`, `cogs`, `gross_margin_percentage`, `gross_income`, `rating`, `total_price`, `day`, `time_period`.
 
 **SQL Queries:**
 - **Total Sales by Branch**:
