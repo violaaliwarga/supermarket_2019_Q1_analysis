@@ -219,11 +219,13 @@ The dataset was uploaded into PostgreSQL with the following schema:
 - **Product Line Trends**: **Fashion Accessories** consistently outperformed other product lines, while **Health and Beauty** had the lowest sales.
   
 **Visualizations:**
-- **Sales by Branch (Bar Chart)**:
-  ![Dummy Bar Chart](#)
-  
-- **Sales Trends by Day of the Week (Line Plot)**:
-  ![Dummy Line Plot](#)
+![Total Sales by Branch](https://github.com/user-attachments/assets/e849be8f-7208-4056-b8e7-f343ea2a483a)
+![Sales Trends by Day of the Week](https://github.com/user-attachments/assets/646cf280-ab2b-4236-9bc2-5021900bc497)
+![Total Sales by Time Period](https://github.com/user-attachments/assets/da61e30c-54c1-43a6-822c-14a4eb7ed138)
+![Percentage of Total Sales by Product Line](https://github.com/user-attachments/assets/6b4ad774-b48d-47aa-8e2c-b09b02d33b67)
+![Choice of Payment Method](https://github.com/user-attachments/assets/029bbddd-cc03-42a6-8b5e-7640e7b0d5ad)
+![Distribution of Customer Rating](https://github.com/user-attachments/assets/1a9d9436-1290-472e-a6c7-e02ea10bbde6)
+
 
 ---
 
