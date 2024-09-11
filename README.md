@@ -85,7 +85,7 @@ The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
 | **Day**                     | The day of the week on which the transaction occurred (e.g., Monday, Tuesday).|
 | **Time Period**             | The time of day categorized as **Morning** (before 12 PM), **Afternoon** (12 PM to 6 PM), or **Evening** (after 6 PM).|
 
-All of the Python codes can be found [here](https://github.com/violaaliwarga/supermarket_sales/blob/main/Python%20Code%20-%20Data%20Cleaning%20and%20Preparation.ipynb)
+The Python codes for this section can be found [here](https://github.com/violaaliwarga/supermarket_sales/blob/main/Python%20Code%20-%20Data%20Cleaning%20and%20Preparation.ipynb)
 
 ## **3. Data Storage and Management (PostgreSQL)**
 
