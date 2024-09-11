@@ -201,9 +201,6 @@ The dataset was uploaded into PostgreSQL with the following schema:
   - E-wallet: 6.95/10
  
 
-
----
-
 ## **5. Exploratory Data Analysis**
 
 **Descriptive Statistics:**
@@ -232,6 +229,7 @@ The dataset was uploaded into PostgreSQL with the following schema:
 <br>
 <img src="https://github.com/user-attachments/assets/029bbddd-cc03-42a6-8b5e-7640e7b0d5ad" width="500">
 <img src="https://github.com/user-attachments/assets/1a9d9436-1290-472e-a6c7-e02ea10bbde6" width="300">
+<br>
 <br>
 
 
