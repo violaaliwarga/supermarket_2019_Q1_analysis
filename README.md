@@ -42,12 +42,12 @@ The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/
 ## **2. Data Cleaning and Preparation**
 
 **Exploring Missing Data:**
-- Columns `Customer Rating` and `Time` had missing values (approx. 5%).
-- Duplicates were found in the `Invoice ID` column and removed.
+- Columns `Customer` (7.9%), `Product Line` (4.3%), `Unit Price' (0.7%), and `Quantity` (2%) had missing values.
+- Duplicates (3) were found and removed.
 
 **Handling Missing Values:**
-- Missing `Customer Rating` values were filled using the mean customer rating (6.7/10).
-- Missing `Time` values were forward filled using the purchase time of the previous entry.
+- Missing `Customer` & `Product Line` values were filled using the mode `Normal` and `Fashion accessories` respectively.
+- Missing `Unit Price' and `Quantity` values were filled using the mean `55.700292` and `5.503568`.
 
 **Data Transformation:**
 - Created new columns: 
