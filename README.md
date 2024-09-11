@@ -12,8 +12,9 @@ The objective of this project is to analyze historical sales data from a superma
 - **SQL** (for data storage and querying)
 
 **Dataset Overview:**
-- **Total Rows**: 1,003
 - **Data Period**: 1 January 2019 - 30 March 2019
+- **Total Rows**: 1,003
+- **Total Columns**: 17
 - **Attributes**:
 
 | **Column Name**          | **Description**|
@@ -55,6 +56,34 @@ The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/
   - `Time Period` (Morning, Afternoon, Evening)
   
 The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
+
+**Updated Dataset:**
+- **Total Rows**: 1,003
+- **Total Columns**: 20
+- **Attributes**:
+
+| **Column Name**          | **Description**|
+|------------------------|----------------------------------------------------------------------------------|
+| **Invoice ID**          | A unique identifier for each sales transaction, generated automatically by the system.|
+| **Branch**              | The store branch where the purchase was made, identified by letters A, B, and C.|
+| **City**                | The location of each branch.|
+| **Customer**       | Indicates whether the customer is a **Member** (loyalty card holder) or **Normal** (non-member).|
+| **Gender**              | The gender of the customer making the purchase.|
+| **Product Line**        | The category of products purchased, including **Electronic Accessories**, **Fashion Accessories**, **Food and Beverages**, **Health and Beauty**, **Home and Lifestyle**, and **Sports and Travel**. |
+| **Unit Price**          | The price of a single item in USD.|
+| **Quantity**            | The number of units of a product purchased in a transaction.|
+| **Tax**                 | The amount of tax applied to the purchase, calculated as 5% of the total.|
+| **Total**               | The total amount paid for the purchase, including the tax.|
+| **Date**                | The date the transaction was made, covering a period from January 2019 to March 2019.|
+| **Time**                | The time of purchase, recorded in the format of hours and minutes (from 10:00 AM to 9:00 PM).|
+| **Payment**      | The method used for payment, which could be **Cash**, **Credit Card**, or **E-wallet**.|
+| **COGS**                | The cost of goods sold for the transaction, representing the business’s expense in producing or acquiring the sold goods.|
+| **Gross Margin**      | The percentage of profit from the sale after accounting for the cost of goods sold, expressed as a percentage.|
+| **Gross Income**        | The actual profit earned from the sale after deducting the cost of goods sold.|
+| **Rating**     | A rating provided by the customer based on their shopping experience, ranging from 1 (very dissatisfied) to 10 (very satisfied).|
+| **Total Price** | The total amount paid for the purchase before including the tax.|
+| **Day**                     | The day of the week on which the transaction occurred (e.g., Monday, Tuesday).|
+| **Time Period**             | The time of day categorized as **Morning** (before 12 PM), **Afternoon** (12 PM to 6 PM), or **Evening** (after 6 PM).|
 
 ---
 
