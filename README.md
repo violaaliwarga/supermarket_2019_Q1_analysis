@@ -101,9 +101,9 @@ The Python codes for this section can be found [here](https://github.com/violaal
   GROUP BY branch;
   ```
   **Result:**
-  - Branch A: \$120,000
-  - Branch B: \$95,000
-  - Branch C: \$110,000
+  - Branch A: \$0
+  - Branch B: \$0
+  - Branch C: \$0
 
 - **Customer Rating by Payment Method**:
   ```sql
@@ -112,25 +112,25 @@ The Python codes for this section can be found [here](https://github.com/violaal
   GROUP BY payment;
   ```
   **Result:**
-  - Cash: 6.9/10
-  - Credit Card: 7.2/10
-  - E-wallet: 6.5/10
+  - Cash: 0/10
+  - Credit Card: 0/10
+  - E-wallet: 0/10
 
 ---
 
 ## **4. Exploratory Data Analysis (Python)**
 
 **Descriptive Statistics:**
-- **Average Gross Income**: \$50 per invoice
-- **Average Customer Rating**: 6.7/10
-- **Most Popular Product Line**: Food and Beverages (35% of total sales)
+- **Average Gross Income**: \$0 per invoice
+- **Average Customer Rating**: 0/10
+- **Most Popular Product Line**: Food and Beverages (0% of total sales)
 
 **Branch Performance:**
-- Branch A had the highest total sales at \$120,000, followed by Branch C with \$110,000. Branch B lagged with only \$95,000 in total sales.
+- Branch A had the highest total sales at \$0, followed by Branch C with \$0. Branch B lagged with only \$0 in total sales.
 
 **Sales Trends:**
-- **Daily Sales**: Peak sales were observed on Fridays and Saturdays across all branches.
-- **Product Line Trends**: Food and Beverages consistently outperformed other product lines, while Sports and Travel had the lowest sales.
+- **Daily Sales**: Peak sales were observed on ___ and ___ across all branches.
+- **Product Line Trends**: ___ consistently outperformed other product lines, while ___ had the lowest sales.
   
 **Visualizations:**
 - **Sales by Branch (Bar Chart)**:
