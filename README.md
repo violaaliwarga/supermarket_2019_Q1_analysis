@@ -15,6 +15,7 @@ The objective of this project is to analyze historical sales data from a superma
 **Dataset Overview:**
 - **Rows**: 1,003
 - **Attributes**:
+
 | **Attribute**          | **Description**                                                                 |
 |------------------------|---------------------------------------------------------------------------------|
 | **Invoice ID**          | Unique sales transaction ID.                                                    |
