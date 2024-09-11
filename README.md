@@ -15,7 +15,6 @@ The objective of this project is to analyze historical [sales data](https://www.
 - **Data Period**: 1 January 2019 - 30 March 2019
 - **Total Rows**: 1,003
 - **Total Columns**: 17
-- **Attributes**:
 
 | **Column Name**          | **Description**|
 |------------------------|----------------------------------------------------------------------------------|
@@ -64,7 +63,6 @@ The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
 **Updated Dataset:**
 - **Total Rows**: 1,003
 - **Total Columns**: 20
-- **Attributes**:
 
 | **Column Name**          | **Description**|
 |------------------------|----------------------------------------------------------------------------------|
