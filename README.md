@@ -8,14 +8,33 @@
 The objective of this project is to analyze historical sales data from a supermarket chain with three branches over a period of three months (January 2019 to March 2019). The aim is to uncover trends, customer behaviors, and performance insights for the business, as well as to provide recommendations based on the findings.
 
 **Tools Used:**
+- **Excel** (for preprocessing)
 - **Python** (for data cleaning, analysis, and visualization)
-- **PostgreSQL** (for data storage and querying)
-- **Excel** (for additional visualizations)
-- **Matplotlib/Seaborn** (for Python-based plotting)
+- **SQL** (for data storage and querying)
 
 **Dataset Overview:**
-- **Rows**: 1,000+
-- **Attributes**: Invoice ID, Branch, City, Customer Type, Gender, Product Line, Unit Price, Quantity, Tax, Total Price, Date, Time, Payment Method, COGS, Gross Margin Percentage, Gross Income, Customer Rating
+- **Rows**: 1,003
+- **Attributes**:
+| **Attribute**          | **Description**                                                                 |
+|------------------------|---------------------------------------------------------------------------------|
+| **Invoice ID**          | Unique sales transaction ID.                                                    |
+| **Branch**              | Store branch (A, B, or C).                                                      |
+| **City**                | Branch location.                                                                |
+| **Customer**       | Either **Member** (with loyalty card) or **Normal** (without).                   |
+| **Gender**              | Customer's gender.                                                              |
+| **Product Line**        | Product category (e.g., Electronics, Fashion, Food, Health, etc.).               |
+| **Unit Price**          | Price per product in USD.                                                       |
+| **Quantity**            | Number of items purchased.                                                      |
+| **Tax**                 | 5% sales tax.                                                                   |
+| **Total**               | Total amount paid (including tax).                                              |
+| **Date**                | Purchase date (Jan 2019 - Mar 2019).                                            |
+| **Time**                | Purchase time (between 10 AM and 9 PM).                                         |
+| **Payment**      | Payment type: **Cash**, **Credit Card**, or **E-wallet**.                        |
+| **COGS**                | Cost of goods sold.                                                             |
+| **Gross Margin**      | Profit margin percentage.                                                       |
+| **Gross Income**        | Profit from the sale.                                                           |
+| **Rating**     | Customer's rating of their shopping experience (1-10 scale).                    |
+
 
 ---
 
