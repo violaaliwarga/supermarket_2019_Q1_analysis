@@ -271,8 +271,7 @@ Customers were segmented into three clusters:
   - **Average Quantity:** 8.64 units
   - **Total Spent:** \$127,796.00
   - **Average Frequency:** 502.24 purchases
-
-    **Characteristics of High-Value Customers:**
+  - **Characteristics of High-Value Customers:**
     - These customers spend significantly more per transaction compared to the other clusters.
     - They make a considerable number of purchases and buy more items per transaction.
     - This cluster represents your high-value customers who contribute substantially to total revenue.
@@ -282,8 +281,7 @@ Customers were segmented into three clusters:
   - **Average Quantity:** 6.56 units
   - **Total Spent:** \$123,626.32
   - **Average Frequency:** 503.88 purchases
-
-    **Characteristics of Mid-Value Customers:**
+  - **Characteristics of Mid-Value Customers:**
     - These customers spend moderately per transaction and buy a reasonable number of items.
     - They have a total spend and average quantity between the high-value and low-value clusters.
     - They are consistent but not as high-spending as Cluster 1.
@@ -293,23 +291,22 @@ Customers were segmented into three clusters:
   - **Average Quantity:** 3.90 units
   - **Total Spent:** \$71,544.43
   - **Average Frequency:** 505.42 purchases
-
-    **Characteristics of Low-Value Customers:**
+  - **Characteristics of Low-Value Customers:**
     - These customers spend the least per transaction and buy fewer items.
     - They still contribute to a significant portion of total transactions but with lower spend per purchase.
     - They are infrequent or low-spending customers, contributing the least to total revenue.
 
 ### 6.3. **Summary**
 
-  - **Cluster 1** represents high-value customers who are frequent and spend significantly more per transaction.
-  - **Cluster 2** represents mid-value customers who spend and purchase moderately.
-  - **Cluster 0** represents low-value customers who spend the least per transaction and purchase fewer items.
+- **Cluster 1** represents high-value customers who are frequent and spend significantly more per transaction.
+- **Cluster 2** represents mid-value customers who spend and purchase moderately.
+- **Cluster 0** represents low-value customers who spend the least per transaction and purchase fewer items.
 
 ### 6.4. **Actions and Strategy**
 
-  - **High-Value Customers:** Focus on retaining and rewarding these customers with loyalty programs, exclusive offers, and personalized marketing.
-  - **Mid-Value Customers:** Encourage increased spending through targeted promotions and upselling.
-  - **Low-Value Customers:** Improve engagement through incentives, discounts, or improved customer service to increase their spending.
+- **High-Value Customers:** Focus on retaining and rewarding these customers with loyalty programs, exclusive offers, and personalized marketing.
+- **Mid-Value Customers:** Encourage increased spending through targeted promotions and upselling.
+- **Low-Value Customers:** Improve engagement through incentives, discounts, or improved customer service to increase their spending.
 
 
 
