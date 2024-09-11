@@ -46,8 +46,8 @@ The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/
 - Duplicates (3) were found and removed.
 
 **Handling Missing Values:**
-- Missing `Customer` & `Product Line` values were filled using the mode `Normal` and `Fashion Accessories` respectively.
-- Missing `Unit Price' and `Quantity` values were filled using the mean `55.700292` and `5.503568`.
+- Missing `Customer` & `Product Line` values were filled using the mode Normal and Fashion Accessories respectively.
+- Missing `Unit Price' and `Quantity` values were filled using the mean 55.700292 and 5.503568.
 
 **Data Transformation:**
 - Created new columns: 
