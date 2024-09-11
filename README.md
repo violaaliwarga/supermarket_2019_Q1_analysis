@@ -51,9 +51,9 @@ The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/
 
 **Data Transformation:**
 - Created new columns: 
-  - `Total Price (Excluding Tax from Total)`
-  - `Day` (Monday, Tuesday, etc)
-  - `Time Period` (Morning, Afternoon, Evening)
+  - `Total Price`: The total amount paid before including the tax.
+  - `Day`: The day of the week on which the transaction occurred (e.g., Monday, Tuesday).
+  - `Time Period`: The time of day categorized as Morning (before 12 PM), Afternoon (12 PM to 6 PM), or Evening (after 6 PM).
   
 The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
 
@@ -85,12 +85,13 @@ The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
 | **Day**                     | The day of the week on which the transaction occurred (e.g., Monday, Tuesday).|
 | **Time Period**             | The time of day categorized as **Morning** (before 12 PM), **Afternoon** (12 PM to 6 PM), or **Evening** (after 6 PM).|
 
+All of the Python codes can be found [here](url)
 
 ## **3. Data Storage and Management (PostgreSQL)**
 
 **Database Design:**
 - The dataset was uploaded into PostgreSQL with the following schema:
-  - `invoice_id`, `branch`, `city`, `customer_type`, `gender`, `product_line`, `unit_price`, `quantity`, `tax`, `total`, `date`, `time`, `payment`, `cogs`, `gross_margin_percentage`, `gross_income`, `rating`.
+  `invoice_id`, `branch`, `city`, `customer_type`, `gender`, `product_line`, `unit_price`, `quantity`, `tax`, `total`, `date`, `time`, `payment`, `cogs`, `gross_margin_percentage`, `gross_income`, `rating`.
 
 **SQL Queries:**
 - **Total Sales by Branch**:
