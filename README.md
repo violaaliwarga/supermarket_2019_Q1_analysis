@@ -42,11 +42,11 @@ The dataset can be downloaded [here](https://www.kaggle.com/datasets/aungpyaeap/
 ## **2. Data Cleaning and Preparation**
 
 **Exploring Missing Data:**
-- Columns `Customer` (7.9%), `Product Line` (4.3%), `Unit Price' (0.7%), and `Quantity` (2%) had missing values.
+- Columns `Customer` (7.9%), `Product Line` (4.3%), `Unit Price` (0.7%), and `Quantity` (2%) had missing values.
 - Duplicates (3) were found and removed.
 
 **Handling Missing Values:**
-- Missing `Customer` & `Product Line` values were filled using the mode `Normal` and `Fashion accessories` respectively.
+- Missing `Customer` & `Product Line` values were filled using the mode `Normal` and `Fashion Accessories` respectively.
 - Missing `Unit Price' and `Quantity` values were filled using the mean `55.700292` and `5.503568`.
 
 **Data Transformation:**
@@ -85,7 +85,6 @@ The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
 | **Day**                     | The day of the week on which the transaction occurred (e.g., Monday, Tuesday).|
 | **Time Period**             | The time of day categorized as **Morning** (before 12 PM), **Afternoon** (12 PM to 6 PM), or **Evening** (after 6 PM).|
 
----
 
 ## **3. Data Storage and Management (PostgreSQL)**
 
