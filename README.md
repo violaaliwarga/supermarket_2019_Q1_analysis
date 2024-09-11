@@ -223,8 +223,12 @@ The dataset was uploaded into PostgreSQL with the following schema:
 <img src="https://github.com/user-attachments/assets/e849be8f-7208-4056-b8e7-f343ea2a483a" width="500">
 <img src="https://github.com/user-attachments/assets/646cf280-ab2b-4236-9bc2-5021900bc497" width="500">
 <br>
+<br>
+<br>
 <img src="https://github.com/user-attachments/assets/da61e30c-54c1-43a6-822c-14a4eb7ed138" width="500">
 <img src="https://github.com/user-attachments/assets/6b4ad774-b48d-47aa-8e2c-b09b02d33b67" width="500">
+<br>
+<br>
 <br>
 <img src="https://github.com/user-attachments/assets/029bbddd-cc03-42a6-8b5e-7640e7b0d5ad" width="500">
 <img src="https://github.com/user-attachments/assets/1a9d9436-1290-472e-a6c7-e02ea10bbde6" width="300">
