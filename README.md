@@ -61,7 +61,7 @@ I performed an initial review of the raw dataset using Excel to verify the accur
 The cleaned dataset was saved as `cleaned_supermarket_sales.csv`.
 
 **Updated Dataset:**
-- **Total Rows**: 1,003
+- **Total Rows**: 1,000
 - **Total Columns**: 20
 
 | **Column Name**          | **Description**|
