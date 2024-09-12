@@ -231,7 +231,7 @@ The dataset was uploaded into PostgreSQL with the following schema:
 <img src="https://github.com/user-attachments/assets/1a9d9436-1290-472e-a6c7-e02ea10bbde6" width="300">
 <br>
 <br>
-The Python codes for this section can be found here
+The Python codes for this section can be found [here](https://github.com/violaaliwarga/supermarket_sales/blob/main/Python%20Code%20-%20EDA%20Visualization.ipynb)
 
 
 ## **6. Advanced Analysis - Customer Segmentation (K-Means Clustering)**
@@ -307,7 +307,7 @@ Customers were segmented into three clusters:
 - **Mid-Value Customers:** Encourage increased spending through targeted promotions and upselling.
 - **Low-Value Customers:** Improve engagement through incentives, discounts, or improved customer service to increase their spending.
 
-The Python codes for this section can be found here
+The Python codes for this section can be found [here](https://github.com/violaaliwarga/supermarket_sales/blob/main/Python%20Code%20-%20Customer%20Segmentation.ipynb)
 
 
 ## **7. Results and Business Insights**
