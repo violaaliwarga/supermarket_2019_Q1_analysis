@@ -231,6 +231,7 @@ The dataset was uploaded into PostgreSQL with the following schema:
 <img src="https://github.com/user-attachments/assets/1a9d9436-1290-472e-a6c7-e02ea10bbde6" width="300">
 <br>
 <br>
+The Python codes for this section can be found here
 
 
 ## **6. Advanced Analysis - Customer Segmentation (K-Means Clustering)**
@@ -306,29 +307,55 @@ Customers were segmented into three clusters:
 - **Mid-Value Customers:** Encourage increased spending through targeted promotions and upselling.
 - **Low-Value Customers:** Improve engagement through incentives, discounts, or improved customer service to increase their spending.
 
+The Python codes for this section can be found here
+
+
 ## **7. Results and Business Insights**
 
-### **Branch Performance:**
-- **Branch A** consistently outperformed the other branches, possibly due to its larger customer base or better location. Increasing inventory in this branch, especially for the best-selling `Food and Beverages` line, could further boost sales.
-  
-### **Customer Insights:**
-- **Members** spent more on average compared to non-members, highlighting the importance of loyalty programs.
-- **Female customers** had a slightly higher satisfaction rating (7.1) than males (6.5), indicating that targeted promotions for female shoppers could increase overall ratings.
+### **7.1. Overall Sales Performance**
+- **Total Sales:** The total sales amount across all branches and product lines highlights the strong performance of the supermarket chain, with consistent sales across different branches. Branch C led in total sales, followed closely by Branches A and B.
+- **Sales by Product Line:** Fashion Accessories emerged as the top-performing category, contributing significantly to total sales. Conversely, Health and Beauty had the lowest sales, suggesting potential areas for improvement or marketing focus.
+- **Sales Trends:** Sales are highest on Saturdays and Tuesdays, and the Afternoon period sees the highest revenue, indicating peak shopping times for the supermarket. This insight could guide staffing and promotional strategies.
 
-### **Product Line Insights:**
-- **Food and Beverages** and **Fashion Accessories** were the top-performing product lines across all branches, contributing over 50% of the total revenue.
-- **Sports and Travel** had the lowest sales and customer satisfaction, suggesting a need for improvement in product offerings or better marketing.
+### **7.2. Customer Behavior**
+- **Average Customer Rating:** The average rating of 7/10 reflects generally positive customer satisfaction. The slight variation in ratings based on payment methods suggests that customer experience may differ depending on payment options.
+- **Customer Segmentation:** The K-Means clustering identified distinct customer segments:
+  - **High-Value Customers:** Significant contributors to revenue; focus on retention strategies and exclusive offers.
+  - **Mid-Value Customers:** Consistent spenders; potential for increased engagement through targeted promotions.
+  - **Low-Value Customers:** Lower spenders; opportunities for improvement through incentives or enhanced service.
 
----
+### **7.3. Recommendations**
+- **Branch Performance:** Allocate resources and marketing efforts based on branch performance. Branch C's success could be analyzed for best practices and applied to other branches.
+- **Product Line Strategies:** Enhance marketing efforts for underperforming product lines such as Health and Beauty, while capitalizing on the popularity of Fashion Accessories.
+- **Sales Timing:** Optimize staffing and promotional activities during peak sales periods (Afternoon and weekends) to maximize revenue and customer satisfaction.
 
 ## **8. Conclusion**
 
-This project provided key insights into branch performance, customer behavior, and product line sales for a supermarket chain. Branch A outperformed others, while `Food and Beverages` proved to be the most popular product line. Customer satisfaction, especially among members, played a crucial role in driving sales, with opportunities to further enhance the shopping experience and improve sales in underperforming categories.
+The analysis of the supermarket sales data from January 2019 to March 2019 provides valuable insights into sales performance, customer behavior, and product line effectiveness. Key findings include:
+- **Branch C** outperformed other branches in total sales.
+- **Fashion Accessories** consistently led in sales, while **Health and Beauty** lagged behind.
+- Peak sales occur on Saturdays and in the Afternoon.
+- Customer segmentation revealed high-value, mid-value, and low-value customer groups, each requiring tailored strategies.
 
----
+These insights offer actionable recommendations for improving sales strategies, customer engagement, and operational efficiency. By focusing on high-value customers, optimizing product lines, and adjusting staffing and promotional activities based on sales trends, the supermarket chain can enhance overall performance and customer satisfaction.
 
 ## **9. Next Steps**
 
-- Perform **seasonal analysis** over a longer period to see if trends hold year-round.
-- Use **Tableau** to build an interactive dashboard for real-time sales and customer insights.
-- Explore **machine learning** models for more accurate sales forecasting.
+### **9.1. Further Analysis**
+- **Advanced Customer Segmentation:** Explore additional clustering techniques (e.g., hierarchical clustering or DBSCAN) to refine customer segments and gain deeper insights.
+- **Sales Forecasting:** Implement forecasting models to predict future sales trends and prepare for seasonal variations.
+
+### **9.2. Operational Improvements**
+- **Branch Performance Review:** Conduct a detailed review of Branch C's practices and apply successful strategies to other branches.
+- **Product Line Adjustments:** Assess and adjust inventory and marketing strategies for underperforming product lines.
+
+### **9.3. Customer Engagement Strategies**
+- **Loyalty Programs:** Develop and implement targeted loyalty programs for high-value customers.
+- **Promotional Campaigns:** Create targeted promotions and incentives to boost spending among mid-value and low-value customers.
+
+### **9.4. Performance Monitoring**
+- **Regular Reviews:** Establish a routine for monitoring sales performance, customer feedback, and operational efficiency to ensure ongoing improvements and adaptations.
+
+### **9.5. Documentation and Sharing**
+- **Report Dissemination:** Share findings and recommendations with relevant stakeholders through presentations or detailed reports.
+- **Documentation Updates:** Keep project documentation updated with new insights and adjustments for future reference and analysis.
