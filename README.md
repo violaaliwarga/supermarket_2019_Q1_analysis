@@ -233,16 +233,14 @@ The dataset was uploaded into PostgreSQL with the following schema:
 <br>
 
 
-## **6. Advanced Analysis (Optional)**
-
-### **6.1. Customer Segmentation (K-Means Clustering):**
+## **6. Advanced Analysis - Customer Segmentation (K-Means Clustering)**
 
 Customers were segmented into three clusters:
 1. **High-Value Customers**: Frequent purchases, high total spending.
 2. **Mid-Value Customers**: Moderate spending, but consistent.
 3. **Low-Value Customers**: Infrequent purchases and low spending.
 
-### **Result**
+### **6.1. Result**
   
   We have got three clusters (0, 1, and 2) with the following characteristics:
 
@@ -264,6 +262,8 @@ Customers were segmented into three clusters:
   - **Average Quantity:** 6.56 units
   - **Average Frequency:** 503.88 purchases
 
+<br>
+
 ### 6.2. **Interpretation**
 
   **6.2.1. High-Value Customers (Cluster 1):**
@@ -274,7 +274,7 @@ Customers were segmented into three clusters:
   - **Characteristics of High-Value Customers:**
     - These customers spend significantly more per transaction compared to the other clusters.
     - They make a considerable number of purchases and buy more items per transaction.
-    - This cluster represents your high-value customers who contribute substantially to total revenue.
+    - This cluster represents high-value customers who contribute substantially to total revenue.
 
   **6.2.2. Mid-Value Customers (Cluster 2):**
   - **Average Total Spent:** \$408.01
@@ -296,11 +296,15 @@ Customers were segmented into three clusters:
     - They still contribute to a significant portion of total transactions but with lower spend per purchase.
     - They are infrequent or low-spending customers, contributing the least to total revenue.
 
+<br>
+
 ### 6.3. **Summary**
 
 - **Cluster 1** represents high-value customers who are frequent and spend significantly more per transaction.
 - **Cluster 2** represents mid-value customers who spend and purchase moderately.
 - **Cluster 0** represents low-value customers who spend the least per transaction and purchase fewer items.
+
+<br>
 
 ### 6.4. **Actions and Strategy**
 
@@ -308,15 +312,7 @@ Customers were segmented into three clusters:
 - **Mid-Value Customers:** Encourage increased spending through targeted promotions and upselling.
 - **Low-Value Customers:** Improve engagement through incentives, discounts, or improved customer service to increase their spending.
 
-
-
-
-----
-
-### **Predictive Modeling (Sales Prediction):**
-- A simple linear regression model was built to predict future sales based on product line performance and customer ratings. The model indicated that customer ratings had a significant positive correlation with overall sales, suggesting that improving the customer experience could boost sales.
-
----
+<br>
 
 ## **7. Results and Business Insights**
 
